@@ -1,0 +1,34 @@
+# Dependencies & build outputs
+node_modules/
+dist/
+build/
+coverage/
+
+# Version control & editor/agent configs
+.git/
+.gitignore
+.agents/
+.aistudio/
+.vscode/
+.idea/
+
+# Environment & credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*service-account*.json
+
+# Logs & OS junk
+*.log
+npm-debug.log*
+.DS_Store
+
+# Container meta & documentation
+Dockerfile
+.dockerignore
+*.md
+*.markdown
+public/assets/aistudio/

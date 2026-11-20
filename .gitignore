@@ -1,0 +1,25 @@
+# Dependencies & build artifacts
+node_modules/
+build/
+dist/
+coverage/
+
+# OS & logs
+.DS_Store
+*.log
+npm-debug.log*
+
+# Environment & secrets
+.env
+.env*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*service-account*.json
+
+# Agent & Cloud tooling configs
+.agents/
+.agents/mcp_config.json
+.aistudio/
+.gcloud/
